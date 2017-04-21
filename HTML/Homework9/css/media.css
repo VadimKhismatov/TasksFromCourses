@@ -1,0 +1,521 @@
+﻿@media screen and (max-width: 768px) {
+    .container {
+        /*background-color: antiquewhite;*/
+    }
+
+    .open {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+
+    .top_logo_container {
+        float: none;
+    }
+
+    .menu_container_full {
+        float: none;
+    }
+
+    .menu {
+    }
+
+    .menu_item {
+        margin-left: 0;
+        margin-right: 43px;
+    }
+
+    .slider_title {
+        font-size: 48px;
+    }
+
+    .slider_subtitle {
+        font-size: 24px;
+        height: 30px;
+        overflow: hidden;
+    }
+
+    .slider_text {
+        font-size: 16px;
+        width: 280px;
+        height: 85px;
+        overflow: hidden;
+    }
+
+    .slider_text_content {
+        width: 40%;
+        padding-left: 10px;
+    }
+
+    .blurbs_container div {
+        margin: 25px auto 0 auto;
+    }
+
+    .blurb_image {
+        margin: 12px 0 0 40px;
+    }
+
+    .blurb_title {
+        width: 170px;
+        font-size: 24px;
+    }
+
+    .blurb_text {
+        font-size: 16px;
+        width: 170px;
+        height: 136px;
+        overflow: hidden;
+    }
+
+    .blurb_link {
+        font-size: 18px;
+    }
+
+    .testimonials {
+        width: 42%;
+        height: 273px;
+        margin: 0 0 0 21px;
+        /*overflow: hidden;*/
+    }
+
+    .testimonials_title {
+        font-size: 24px;
+    }
+
+    .testimonials_text {
+        width: 259px;
+        height: 132px;
+        overflow: hidden;
+    }
+
+    .post_time {
+        width: 261px;
+        height: 21px;
+        overflow: hidden;
+    }
+
+    .blog {
+        width: 49%;
+    }
+
+    .brands a:first-child {
+        margin: 0 6.5% 0 1%;
+    }
+
+    .feed_title_smaller {
+        font-size: 24px;
+    }
+
+    .feed {
+        width: 216px;
+    }
+
+    .feed_text {
+        width: 178px;
+        height: 198px;
+        overflow: hidden;
+    }
+
+    .menu {
+        font-size: 20px;
+    }
+
+    .footer_menu_container {
+        float: left;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        /*background-color: antiquewhite;*/
+    }
+
+    .open {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .slider_container {
+        height: 300px;
+    }
+
+    .slider_title {
+        font-size: 36px;
+    }
+
+    .slider_subtitle {
+        font-size: 18px;
+    }
+
+    .slider_image {
+        height: 350px;
+    }
+
+    .blurbs_container {
+        height: 650px;
+    }
+
+    .blurb {
+        float: none;
+        width: 100%;
+    }
+
+    .blurb_title {
+        float: left;
+        margin: 10px 0px 0 10px;
+    }
+
+    .blurb_text {
+        float: none;
+        width: 538px;
+        height: 100px;
+        margin: 0 0 0 72px;
+    }
+
+    .blurb_link {
+        margin-right: 10px;
+    }
+
+    .testimonials {
+        float: none;
+        width: 69%;
+        height: 273px;
+        margin: 0 0 0 100px;
+    }
+
+    .testimonials_text {
+        width: 378px;
+        height: 155px;
+    }
+
+    .blog {
+        float: none;
+        width: 52%;
+        margin-left: 140px;
+    }
+
+    .blog_link {
+        padding: 0 7px 0 0px;
+    }
+
+    .brands a:first-child {
+        margin: 0 5% 0 1%;
+    }
+
+    .brands a:nth-child(2) {
+        margin-right: 5%;
+    }
+
+    .brands a:nth-child(3) {
+        margin-right: 5%;
+    }
+
+    .brands a:nth-child(4) {
+        margin: 1px 5% 0 0;
+    }
+
+    .brands a:nth-child(5) {
+        margin: 0px 4% 24px 0;
+    }
+
+    .feed {
+        width: 207px;
+        margin: 0 0px 0 0;
+    }
+
+    .menu_item {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .open {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .top_logo_container {
+        text-align: center;
+    }
+
+    .compact_menu_container {
+        position: absolute;
+        left: 24%;
+    }
+
+    .compact_menu {
+        width: 246px;
+        margin: 0 auto;
+        background-color: rgba(54, 41, 62, 0.9);
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 46px;
+        overflow: hidden;
+    }
+
+        .compact_menu:hover {
+            height: 286px;
+        }
+
+    .compact_menu_item {
+        float: none;
+        margin: 0 0 0 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid #35273d;
+        line-height: 46px;
+    }
+
+        .compact_menu_item:nth-child(2),
+        .compact_menu_item:nth-child(3),
+        .compact_menu_item:nth-child(4),
+        .compact_menu_item:nth-child(5),
+        .compact_menu_item:nth-child(6) {
+            border-top: 1px solid #54405c;
+        }
+
+
+        .compact_menu_item:hover {
+            background-color: rgba(36, 28, 42, 0.9);
+            border-bottom: 2px solid #edbfff;
+        }
+
+        .compact_menu_item:last-child {
+            border-bottom: none;
+        }
+
+            .compact_menu_item:last-child:hover .compact_menu_link {
+                border-bottom: 2px solid #edbfff;
+            }
+
+
+
+        .compact_menu_item:first-child:hover {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .compact_menu_item:last-child:hover {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+    .slider_container {
+        height: 246px;
+    }
+
+    .slider_image {
+        height: 310px;
+    }
+
+    .slider_text {
+        display: none;
+    }
+
+    .slider_subtitle {
+        height: 23px;
+    }
+
+    .slider_image_container {
+        width: 46%;
+    }
+
+    .blurb_image {
+        margin: 12px 0 0 25px;
+    }
+
+    .blurb_text {
+        float: none;
+        width: 427px;
+        height: 100px;
+        margin: 0 0 0 57px;
+    }
+
+    .testimonials {
+        width: 100%;
+        margin: 0 0 0 25px;
+    }
+
+    .testimonials_text {
+        width: 384px;
+        height: 202px;
+    }
+
+    .blog {
+        float: none;
+        width: 70%;
+        margin-left: 65px;
+    }
+
+    .brands_container {
+        height: 234px;
+    }
+
+    .brands a:first-child {
+        margin: 0 11.5% 0 16%;
+    }
+
+    .brands a:nth-child(2) {
+        margin-right: 11.5%;
+    }
+
+    .brands a:nth-child(3) {
+        margin-right: 11.5%;
+    }
+
+    .brands a:nth-child(4) {
+        margin: 27px 11.5% 0 16%;
+    }
+
+    .brands a:nth-child(5) {
+        margin-right: 11.5%;
+    }
+
+    .brands a:nth-child(6) {
+        margin-right: 11%;
+    }
+
+    .feeds {
+        height: 668px;
+    }
+
+    .feed {
+        float: none;
+        width: 100%;
+    }
+
+    .feed_text {
+        width: 100%;
+        height: 141px;
+    }
+
+    .footer {
+        height: 201px;
+    }
+
+    .footer_menu_container {
+        float: none;
+        width: 467px;
+        margin: 41px auto 0 auto;
+    }
+
+
+
+    .designed {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .compact_menu {
+        width: 180px;
+        background: none;
+        border: none;
+    }
+
+    .compact_menu_item {
+        border: none;
+    }
+
+        .compact_menu_item:hover {
+            background-color: rgba(36, 28, 42, 0.9);
+            border-radius: 10px;
+            border-bottom: none;
+        }
+
+        .compact_menu_item:nth-child(2),
+        .compact_menu_item:nth-child(3),
+        .compact_menu_item:nth-child(4),
+        .compact_menu_item:nth-child(5),
+        .compact_menu_item:nth-child(6) {
+            border-top: none;
+        }
+
+        .compact_menu_item:nth-child(1) .compact_menu_link {
+            border-bottom: 2px solid #edbfff;
+        }
+
+    .slider_container {
+        background: none;
+    }
+
+    .slider_image_container {
+        display: none;
+    }
+
+    .slider_text_content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .slider_subtitle {
+        height: 18px;
+    }
+
+    .blurb_text {
+        width: 196px;
+        height: 66px;
+    }
+
+    .testimonials {
+        width: 81%;
+        margin: 0 0 0 25px;
+    }
+
+    .testimonials_text {
+        width: 159px;
+        height: 176px;
+    }
+
+    .blog {
+        margin-left: 14px;
+        width: 89%;
+    }
+
+    .post_title {
+        height: 16px;
+        overflow: hidden;
+        width: 154px;
+    }
+
+    .post_time {
+        width: 218px;
+    }
+
+    .brands_container {
+        height: 322px;
+        border-bottom: none;
+    }
+
+    .brands a:nth-child(3) {
+        margin: 0 0% 0 16%;
+    }
+
+    .brands a:nth-child(5) {
+        margin: 19% 11.5% 0 11%;
+    }
+
+    .feeds {
+        display: none;
+    }
+
+    .footer .footer_menu_container {
+        display: none;
+    }
+}

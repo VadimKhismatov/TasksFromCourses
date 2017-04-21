@@ -1,0 +1,249 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/img-noise-1x1.png');
+}
+
+.wrapper {
+    width: 1215px;
+    margin: 0 auto;
+    
+}
+
+
+/*CSS-code for menu*/
+
+
+.menu_panel {
+    overflow: hidden;
+    height: 36px;
+    background-image: url('../img/Background_copy.png');
+}
+
+    .menu_panel .entries {
+        float: right;
+        background: linear-gradient(to bottom, rgba(100,168,227,1) 0%,rgba(67,153,211,1) 97%,rgba(66,153,210,0.59) 100%);
+        margin: 0 20px 0 0px;
+        width: 191px;
+        text-align: center;
+    }
+
+        .menu_panel .entries > p {
+            line-height: 36px;
+            font-family: 'Helvetica Neue',Tahoma;
+            font-size: 14px;
+            color: #fff;
+        }
+
+            .menu_panel .entries > p > a {
+                color: #fff;
+            }
+    /*END entries*/
+
+    .menu_panel .suggestions {
+        width: 161px;
+        float: right;
+        box-sizing: border-box;
+        border-left: 1px solid #56a2dc;
+        height: 36px;
+    }
+
+        .menu_panel .suggestions .flag {
+            float: left;
+            margin: 5px 0px 0 17px;
+        }
+
+        .menu_panel .suggestions > p {
+            float: right;
+            margin: 9px 15px 0 0px;
+            font-family: 'Helvetica Neue',Tahoma;
+            font-size: 14px;
+        }
+
+            .menu_panel .suggestions > p > a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+                .menu_panel .suggestions > p > a:hover {
+                    text-decoration: underline;
+                }
+
+    /*END suggestions*/
+
+    .menu_panel .menu_block {
+        float: right;
+    }
+
+        .menu_panel .menu_block .menu {
+            padding: 0;
+            font-size: 0;
+            list-style: none;
+        }
+
+            .menu_panel .menu_block .menu > li {
+                display: inline-block;
+                font-family: 'Helvetica Neue',Tahoma;
+                font-size: 14px;
+                text-align: center;
+            }
+
+                .menu_panel .menu_block .menu > li > a {
+                    display: block;
+                    padding: 0 14px 0 14px;
+                    line-height: 36px;
+                    color: #57aae2;
+                    text-decoration: none;
+                }
+
+                    .menu_panel .menu_block .menu > li > a:hover {
+                        background-color: #4eabda;
+                        color: #fff;
+                    }
+
+/*END*/
+
+
+.main_container {
+    position: relative;
+    height: 1028px;
+    background-image: url('../img/background_img.png');
+}
+
+    .main_container .form_container {
+        width: 560px;
+        height: 613px;
+        position: absolute;
+        top: 20.7%;
+        left: 29%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+        .main_container .form_container .registration {
+            margin: 0 auto;
+            box-sizing: border-box;
+            border-bottom: 2px solid #bcc2b4;
+            text-align: center;
+            line-height: 63px;
+        }
+
+            .main_container .form_container .registration > p {
+                font-family: 'Helvetica Neue', Tahoma;
+                font-size: 24px;
+                color: #fff;
+            }
+
+        .main_container .form_container .login {
+            text-align: center;
+            margin: 35px 0 0 0;
+        }
+
+        .main_container .form_container .separator {
+            position: relative;
+            text-align: center;
+            width: 276px;
+            margin: 26px auto 0 auto;
+            font-family: 'Helvetica Neue', Tahoma;
+            font-size: 14px;
+            color: #999;
+        }
+
+            .main_container .form_container .separator > img {
+                position: absolute;
+                left: 0px;
+                top: 7px;
+            }
+
+        .main_container .form_container form {
+            margin-top: 28px;
+            font-family: 'Helvetica Neue', Tahoma;
+            font-size: 14px;
+        }
+
+            .main_container .form_container form > input {
+                width: 277px;
+                margin: 0 auto 20px auto;
+                display: block;
+                background-color: #000;
+                font-family: 'Helvetica Neue', Tahoma;
+                font-size: 14px;
+                line-height: 35px;
+                text-indent: 17px;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 1px solid #484948;
+            }
+
+                /*changing text color of placeholder in input without focus*/
+                .main_container .form_container form > input[type=text]::-webkit-input-placeholder,
+                .main_container .form_container form > input[type=email]::-webkit-input-placeholder,
+                .main_container .form_container form > input[type=password]::-webkit-input-placeholder {
+                    color: #7f7f7f;
+                }
+
+                /*changing text color of placeholder in input with focus*/
+                .main_container .form_container form > input[type=text]:focus::-webkit-input-placeholder,
+                .main_container .form_container form > input[type=email]:focus::-webkit-input-placeholder,
+                .main_container .form_container form > input[type=password]:focus::-webkit-input-placeholder {
+                    color: #fff;
+                }
+
+                .main_container .form_container form > input:nth-child(2) {
+                    margin: 0 auto 15px auto;
+                }
+
+                .main_container .form_container form > input:nth-child(3) {
+                    margin: 0 auto 17px auto;
+                }
+
+                .main_container .form_container form > input:nth-child(4) {
+                    margin: 0 auto 12px auto;
+                }
+
+                .main_container .form_container form > input[type=text]:focus,
+                .main_container .form_container form > input[type=email]:focus,
+                .main_container .form_container form > input[type=password]:focus {
+                    outline: none;
+                    background-color: #1b5288;
+                    color: #fff;
+                    box-shadow: 0px 0px 10px 2px rgba(77,136,176,1);
+                }
+
+            .main_container .form_container form > p {
+                width: 277px;
+                margin: 0 auto 0 auto;
+                font-family: 'Helvetica Neue', Tahoma;
+                font-size: 14px;
+                color: #b1b0ad;
+            }
+
+                .main_container .form_container form > p > input {
+                    margin-right: 5px;
+                }
+
+            .main_container .form_container form .button {
+                width: 149px;
+                margin-top: 22px;
+                background: linear-gradient(to bottom, rgba(101,168,228,0) 0%,rgba(100,168,227,0.34) 3%,rgba(99,168,226,0.76) 6%,rgba(98,168,226,0.99) 8%,rgba(97,168,225,1) 11%,rgba(70,154,211,0.99) 92%,rgba(69,154,211,0.76) 94%,rgba(68,154,211,0.35) 97%,rgba(67,153,210,0) 100%);
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+                text-indent: 0;
+                border-radius: 5px;
+            }
+
+        .main_container .form_container .agreement {
+            font-family: 'Helvetica Neue', Tahoma;
+            font-size: 11px;
+            text-align: center;
+            color: #afaeac;
+        }

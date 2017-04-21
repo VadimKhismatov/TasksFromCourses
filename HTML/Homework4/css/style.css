@@ -1,0 +1,425 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+
+body {
+    background-image: url('../img/background.png');
+}
+
+.google_head {
+    padding: 0 0 0 301px;
+}
+
+.wrapper {
+    background-color: #fff;
+    margin: -4px auto 0 auto;
+    width: 1000px;
+    height: 988px;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+/*header*/
+.header {
+    overflow: hidden;
+}
+
+    .header .logo_container {
+        float: left;
+        margin: 0px 0 0 28px;
+        padding: 11px 0 0 0px;
+        height: 164px;
+    }
+
+    /*contacts*/
+    .header .contacts {
+        float: right;
+    }
+
+        .header .contacts .contacts_list {
+            list-style-type: none;
+            color: #128aa7;
+            font-family: Tahoma;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 6px 30px 0px 0;
+        }
+
+            .header .contacts .contacts_list .first_item {
+                letter-spacing: 0.2px;
+            }
+
+            .header .contacts .contacts_list .second_item {
+                margin: 3px 0px 0 -1px;
+                letter-spacing: -0.2px;
+            }
+
+            .header .contacts .contacts_list .third_item {
+                margin: 0 0 0 -1px;
+                letter-spacing: -0.2px;
+            }
+
+            .header .contacts .contacts_list .fourth_item {
+                margin: 0px 0px 0 0px;
+            }
+    /*countries*/
+
+    .header .countries {
+        float: right;
+        clear: right;
+        margin: 30px 0 0 0;
+    }
+
+        .header .countries .countries_list {
+            list-style-type: none;
+        }
+
+            .header .countries .countries_list li {
+                float: left;
+            }
+
+
+            /*items of list*/
+
+            .header .countries .countries_list .first_item {
+                margin: 0 16px 0 0px;
+            }
+
+            .header .countries .countries_list .second_item {
+                margin: 0 14px 0 0px;
+            }
+
+            .header .countries .countries_list .third_item {
+                margin: 0 13px 0 0px;
+            }
+
+            .header .countries .countries_list .fourth_item {
+                margin: 0 14px 0 0px;
+            }
+
+            .header .countries .countries_list .fifth_item {
+                margin: 0 15px 0 0px;
+            }
+
+            .header .countries .countries_list .sixth_item {
+                margin: 0 36px 0 0;
+            }
+
+    /*Names of the Countries*/
+
+    .header .countries_names {
+        float: right;
+        clear: right;
+        margin: -7px 0 0px 0;
+    }
+
+        .header .countries_names .countries_list {
+            list-style-type: none;
+            overflow: auto;
+        }
+
+        .header .countries_names li {
+            float: left;
+        }
+
+        /*items of list*/
+
+        .header .countries_names .countries_list .first_item {
+            margin: 0 29px 0 0px;
+        }
+
+        .header .countries_names .countries_list .second_item {
+            margin: 0 27px 0 0px;
+        }
+
+        .header .countries_names .countries_list .third_item {
+            margin: 0 29px 0 0px;
+        }
+
+        .header .countries_names .countries_list .fourth_item {
+            margin: 0 15px 0 0px;
+        }
+
+        .header .countries_names .countries_list .fifth_item {
+            margin: 0 8px 0 0px;
+        }
+
+        .header .countries_names .countries_list .sixth_item {
+            margin: 0 32px 0 0;
+        }
+
+        .header .countries_names li a {
+            font-family: Tahoma;
+            font-size: 10px;
+            color: #128aa7;
+        }
+
+
+/*photo*/
+
+.photo_container > img {
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+
+/*Top menu*/
+
+.menu_panel {
+    background-color: #363636;
+    margin: -4px 0 0 0;
+    height: 26px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+    .menu_panel ul {
+        list-style: none;
+        display: block;
+    }
+
+        .menu_panel ul:after {
+            display: block;
+            content: ' ';
+            clear: both;
+            float: none;
+        }
+
+    .menu_panel > .menu > li > a,
+    .menu_panel > .menu > li > .submenu > li > a {
+        font-family: Tahoma;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /*item of menu*/
+    .menu_panel .menu > li:first-child {
+        margin: 2px 0 0 67px;
+    }
+
+    .menu_panel .menu > li:nth-child(2) {
+        margin: 2px 0px 0px 67px;
+    }
+
+    .menu_panel .menu > li:nth-child(3) {
+        margin: 2px 0 0 67px;
+    }
+
+    .menu_panel .menu > li:nth-child(4) {
+        margin: 2px 0 0 77px;
+    }
+
+    .menu_panel .menu > li:nth-child(5) {
+        margin: 2px 0 0 66px;
+    }
+
+    .menu_panel .menu > li:nth-child(6) {
+        margin: 2px 0 0 74px;
+    }
+
+    .menu_panel .menu > li:last-child {
+        margin: 2px 0 0 62px;
+    }
+
+
+
+    /*travel submenu items*/
+    .menu_panel > .menu > li > .submenu.travel > li:first-child {
+        margin: 3px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.travel > li:nth-child(2),
+    .menu_panel > .menu > li > .submenu.travel > li:nth-child(3),
+    .menu_panel > .menu > li > .submenu.travel > li:nth-child(4) {
+        margin: 7px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.travel > li:last-child {
+        margin: 7px 0 8px 10px;
+    }
+
+
+    /* services submenu items*/
+    .menu_panel > .menu > li > .submenu.services > li:first-child {
+        margin: 4px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.services > li:nth-child(2),
+    .menu_panel > .menu > li > .submenu.services > li:nth-child(3),
+    .menu_panel > .menu > li > .submenu.services > li:nth-child(4) {
+        margin: 6px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.services > li:last-child {
+        margin: 6px 0 8px 10px;
+    }
+
+
+    /* partners submenu items*/
+
+    .menu_panel > .menu > li > .submenu.partners > li:first-child {
+        margin: 4px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.partners > li:nth-child(2),
+    .menu_panel > .menu > li > .submenu.partners > li:nth-child(3),
+    .menu_panel > .menu > li > .submenu.partners > li:nth-child(4) {
+        margin: 6px 0 0 10px;
+    }
+
+    .menu_panel > .menu > li > .submenu.partners > li:last-child {
+        margin: 6px 0 8px 10px;
+    }
+
+
+    .menu_panel > .menu > li {
+        float: left;
+        position: relative;
+    }
+
+        .menu_panel > .menu > li > a {
+            padding-bottom: 7px;
+            display: block;
+            color: white;
+            background-color: #363636;
+            text-decoration: none;
+            border-bottom: 1px solid black;
+        }
+
+            /*triangles for drop-down items*/
+            .menu_panel > .menu > li > a.triangle::before {
+                content: "";
+                position: absolute;
+                border: 4px solid transparent;
+                border-bottom: 0;
+                border-top-color: currentColor;
+                top: 29%;
+                right: -13px;
+            }
+
+        .menu_panel > .menu > li > .submenu {
+            display: none;
+            position: absolute;
+            width: 150px;
+            top: 24px;
+            left: -10px;
+            background-color: #363636;
+            border-top: 1px solid black;
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+        }
+
+            .menu_panel > .menu > li > .submenu > li {
+                display: block;
+            }
+
+                .menu_panel > .menu > li > .submenu > li > a {
+                    display: block;
+                    color: white;
+                    background-color: #363636;
+                    text-decoration: none;
+                }
+
+                    .menu_panel > .menu > li > .submenu > li > a:hover {
+                        text-decoration: underline;
+                    }
+
+.menu_panel > .menu > li:hover > .submenu {
+    display: block;
+}
+
+
+/*Side Blocks*/
+.left_block,
+.right_block {
+    background-color: #edeef0;
+}
+
+    .left_block h2,
+    .right_block h2 {
+        font-family: Tahoma;
+        font-size: 18px;
+        color: #424c43;
+        text-align: center;
+        letter-spacing: -1.1px;
+    }
+
+    .left_block .news_list,
+    .right_block .news_list {
+        font-family: Tahoma;
+        font-size: 14px;
+        color: #424c43;
+        list-style: none;
+    }
+
+/*Left Block*/
+
+.left_block {
+    float: left;
+    width: 209px;
+    border-right: 1px solid #c7cacf;
+    margin-bottom: -1000px;
+    margin-top: 3px;
+    padding-bottom: 1000px;
+}
+
+    .left_block h2 {
+        padding: 5px 0 0 3px;
+    }
+
+    .left_block .news_list li {
+        text-align: center;
+        padding: 7px 9px 0 0;
+    }
+
+    .left_block .news_list.border li:last-child {
+        border-bottom: 1px solid #c7cacf;
+        padding: 6px 9px 0 0;
+    }
+#long_bottom {
+    padding-bottom: 200px;
+}
+
+/*Right Block*/
+
+.right_block {
+    float: right;
+    width: 209px;
+    border-left: 1px solid #c7cacf;
+    margin-bottom: -1000px;
+    margin-top: 3px;
+    padding-bottom: 1000px;
+}
+
+    .right_block h2 {
+        padding: 5px 6px 0 0px;
+    }
+
+    .right_block .news_list li {
+        text-align: center;
+        padding: 7px 9px 0 0;
+    }
+
+    .right_block .news_list.border li:last-child {
+        border-bottom: 1px solid #c7cacf;
+        padding: 6px 9px 0 0;
+    }
+
+
+
+/*copyrights*/
+.copyrights {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: white;
+    width: 204px;
+    margin: 9px auto 10px auto;
+}
