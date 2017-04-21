@@ -1,0 +1,124 @@
+@import "fonts.scss";
+@import "function.scss";
+
+.header{
+    -js-display: flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background: {
+        image:url("../img/promo-mobile.png");
+        repeat:no-repeat;
+        size: cover;
+    };
+
+    &:before{
+        content:"";
+        position: absolute;
+        width:100%;
+        height: 100%;
+        background-color:#333;
+        opacity: .7;
+        z-index: -1;
+        top:0;
+        left:0;
+    }
+}
+
+.header__wrapper{
+    flex-direction: column;
+}
+
+.authorisation_wrapper{
+    margin-top:20px;
+}
+
+.authorisation{
+    -js-display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.authorisation__links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.authorisation__link{
+    color:$main_text_color;
+    text-decoration: none;
+    @include montserrat-bold;
+    font-size: px(14);
+}
+
+.authorisation__link--login{
+    height: 36px;
+    line-height: 36px;
+}
+
+.authorisation__link--signin{
+    width:28.125%;
+    height: 36px;;
+    margin-left:17px;
+    border:2px solid #fff;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 20px;
+
+}
+
+.header_title{
+    @include montserrat-bold;
+    font-size: px(20);
+    color:$main_text_color;
+    text-align: center;
+    margin-top: 117px;
+    letter-spacing: 0.06em;
+}
+
+.header__tagline{
+    margin-top: 32px;
+    padding: 0 19px;
+    @include montserrat-bold;
+    font-size: px(30);
+    color:$main_text_color;
+    text:{
+        transform: uppercase;
+        align:center;
+    }
+    line-height: 34px;
+}
+
+.header__tagline_text{
+    @include roboto-light;
+    font-size: px(18);
+    color:$main_text_color;
+    text-align: center;
+    padding: 0 42px;
+    margin-top: 11px;
+    line-height: 21px;
+}
+
+.header__search_holiday_partner{
+    width:87.5%;
+    height: 40px;
+    margin: 15px auto 0 auto; 
+    border-radius: 20px;
+    background-color:$red_bg_color;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.search_holiday_partner--link{
+    display: block;
+    padding: 0 1px 0 0px;
+    @include montserrat-bold;
+    font-size: px(14);
+    text-decoration: none;
+    color:$main_text_color;
+}

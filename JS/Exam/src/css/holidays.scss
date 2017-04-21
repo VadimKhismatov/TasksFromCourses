@@ -1,0 +1,70 @@
+@import "fonts.scss";
+@import "function.scss";
+
+.holidays{
+    display: flex;
+    justify-content: center;
+}
+.holidays__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.holidays__main_title{
+    margin-top: 36px;
+    margin-bottom: 14px;
+    @include montserrat-bold;
+    font-size: px(22);
+    color:$main_title_color;
+    text-align: center;
+    line-height: 25px;
+}
+
+.holidays__ideas_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.holidays__idea{
+    margin-bottom: 10px;
+    width: 93.75%;
+    height: 121px;
+    position: relative;
+    background: {
+        image:url("../img/idea.png");
+        repeat:no-repeat;
+        size:cover;
+        position: center center;
+    };
+    border-radius: 5px;
+
+    &::before{
+        content:"";
+        position: absolute;
+        width:100%;
+        height: 100%;
+        border-radius: 5px;
+        background-color:#333;
+        opacity: .7;
+        z-index: 0;
+    }
+}
+
+.idea__text_wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
+
+.idea__title{
+    @include montserrat-bold;
+    font-size: px(22);
+    color:$main_text_color;
+    text-align: center;
+}

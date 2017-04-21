@@ -1,0 +1,138 @@
+@import "fonts.scss";
+@import "function.scss";
+
+.partners{
+    display: flex;
+    justify-content: center;
+}
+
+.partners__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.partners__main_title{
+    @include montserrat-bold;
+    font-size: px(22);
+    color:$main_title_color;
+    text-align: center;
+    padding: 0 10px 0 3px;
+    margin-top: 25px;
+    line-height: 26px;
+}
+
+.partners__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    li{
+        list-style: none;
+    }
+}
+
+.partner__wrapper{
+    width: 200px;
+    /*width:61%;*/
+    margin: 0 auto;
+    margin-bottom: 27px;
+    a{
+        display: block;
+        text-decoration:none;
+    }
+}
+.partner__wrapper--3{
+    margin-top: 3px;
+    margin-bottom: 13px;
+}
+
+.parnter__imgs_wrapper{
+    position: relative;
+    text-align: center;
+}
+
+.partner_logo{
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+}
+
+.partner__icon{
+    position:absolute;
+    bottom:0;
+    right:42px;
+    width:40px;
+    height:40px;
+    border:3px solid #fff;
+    border-radius: 100%;
+    background:{
+        image:url("../img/sprite-icons.png");
+        repeat:no-repeat;
+    };
+}
+
+.partner__icon--4{
+    background:{
+        color:#ff4e50;
+        position: -99px center;
+    };
+
+}
+.partner__icon--2{
+    background:{
+        color:#ffa507;
+        position: 10px center;;
+    };
+
+}
+.partner__icon--3{
+    background:{
+        color:#1cd7ad;
+        position: -25px center;
+    };
+
+}
+.partner__icon--1{
+    background:{
+        color:#4e73db;
+        position: -63px center;
+    };
+
+}
+
+.partner__name{
+    margin-top: 16px;
+    @include montserrat-bold;
+    font-size: px(14);
+    color:$main_title_color;
+    text-align: center;
+}
+
+.partner__about{
+    margin-top: 17px;
+    @include roboto-light;
+    font-size: px(14);
+    color:#cccccc;
+    text-align: center;
+    line-height: 15px;
+}
+
+.partners__search{
+    width: 87.5%;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    border:2px solid $red_bg_color;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.partners__search_link{
+    display: block;
+    padding-right: 3px;
+    @include montserrat-bold;
+    font-size: px(14);
+    text:{
+        decoration:none;
+        align:center;
+    };
+    color:$red_bg_color;
+}

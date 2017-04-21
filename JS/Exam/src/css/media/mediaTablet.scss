@@ -1,0 +1,220 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+    @import "../function.scss";
+
+.header{
+    height: 700px;
+    background:{
+        image:url("../img/promo.png");
+        position:center;
+    }
+}
+
+.header_title{
+    margin: 29px 0 0 48px;
+}
+
+.authorisation {
+    flex-direction: row-reverse;
+}
+
+.authorisation__links {
+    justify-content: flex-end;
+}
+
+.authorisation__link--signin{
+    width: 16.6%;
+    margin-top: 18px;
+    margin-right: 50px;
+    margin-left: 19px;
+}
+
+.authorisation__link--login{
+    margin-top: 18px;
+}
+
+.header__tagline{
+    font-size: px(52);
+    padding: 0px 92px 0 87px;
+    margin-top: 142px;
+    line-height: 62px;
+}
+
+.header__tagline_text{
+    margin-top: 28px;
+    padding: 0 44px 0 42px;
+    font-size: px(24);
+}
+
+.header__search_holiday_partner{
+    margin: 37px auto 0;
+    width: 29.42%;
+}
+
+.search_holiday_partner--link{
+    padding: 0 5px 0 0;
+}
+/*HEADER END*/
+
+.about__main_title{
+    margin-top: 97px;
+    padding-left: 7px;
+}
+
+.about__articles_wrapper{
+    margin-top: 19px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about__article{
+    width:236px;
+    position: relative;
+}
+
+.about__article__slide{
+    width:236px;
+    height: 401px;
+}
+
+.about__title{
+    width: 29.7%;
+    padding-left: 3px;
+}
+.pagination__wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    margin: 41px 0 0 0;
+}
+
+.about__article__slide--step1{
+    background:{
+        position: -791px center;
+    }
+}
+
+.about__article__slide--step2{
+    background:{
+        position: -1335px center;
+    }
+}
+
+.about__article__slide--step3{
+    background:{
+        position: -175px center;
+    }
+}
+
+/*ABOUT END*/
+
+.partners__main_title{
+    margin-top: 87px;
+}
+
+.partner__wrapper {
+    width: 257px;
+    margin: 0 0 38px 0;
+}
+
+.partners__list{
+    margin-top: 31px;
+}
+
+.partner__icon{
+    right: 63px;
+}
+
+.partners__search {
+    width: 25%;
+    line-height: 39px;
+    margin-top: 35px;
+}
+/*PARTNERS END*/
+
+.holidays__main_title {
+    margin-top: 98px;
+}
+.holidays__idea{
+    margin-bottom: 20px;
+    width:30.73%;
+    height: 311px;
+}
+.holidays__idea--wider{
+    width: 64.063%;
+}
+.holidays__ideas_box{
+    justify-content: space-around;
+    padding-top: 19px;
+}
+
+/*HOLIDAYS END*/
+
+.search__main_title {
+    margin-top: 74px;
+}
+
+.search__question{
+    margin-top: 33px;
+}
+
+.search_input{
+    width: 31.25%;
+    margin-right: 9px;
+    margin-top: 40px;
+}
+
+.search__btn{
+    width: 20.83%;
+    margin: 40px 2px 0 0;
+}
+
+/*SEARCH END*/
+
+.footer {
+    margin: 100px 0 0;
+}
+
+.footer__wrapper{
+    flex-direction: row;
+    justify-content: initial;
+    align-items:initial;
+}
+
+.footer__main_title{
+    margin: 38px 0 0 39px;
+}
+
+.footer__menu {
+    margin: 38px 0 0 83px;
+    padding-right: 2px;
+}
+
+.footer__menu--partner{
+    margin: 38px 0 0 101px;
+}
+
+.menu__item{
+    text-align: left;
+}
+
+.submenu{
+    flex-direction: column;
+    margin: 16px 0 0 -7px;
+}
+
+.submenu__item {
+    margin: 0 6px 10px 7px;
+}
+
+.footer__logo_wrapper {
+    margin: 40px 0 0 119px;
+}
+
+.footer__designed {
+    margin: 0 0 8px 30px;
+}
+
+/*FOOTER END*/
+/*QUERY END*/
+}

@@ -1,0 +1,22 @@
+{
+  "name": "jshomework17-18",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vadim Khismatov"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VadimKhismatov/JSHomework17-18",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

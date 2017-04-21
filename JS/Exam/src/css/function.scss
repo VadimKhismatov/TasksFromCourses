@@ -1,0 +1,35 @@
+//function to convert px to em
+
+@function px($px){
+    @return ($px / 16) + em;
+};
+
+
+//mixins
+
+@mixin montserrat-bold{
+    font:{
+        family:"Montserrat Bold";
+        weight:700;
+    }
+}
+
+@mixin montserrat-regular{
+    font:{
+        family:"Montserrat Regular";
+        weight:400;
+    }
+}
+
+@mixin roboto-light{
+    font:{
+        family:"Roboto Light";
+        weight:300;
+    }
+}
+
+//variables
+
+$main_text_color:#fff; //main text font color
+$red_bg_color:#ff4e50; // main bg color for elements and borders
+$main_title_color:#333333; // main font dark color for blocks titles

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src:url(../fonts/MyriadPro-Bold.otf);
+
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src:url(../fonts/MyriadPro-Regular.otf);
+
+    font-weight: normal;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+hr {
+    color:#1f1f1f;
+    width: 700px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+
+.header {
+    font-family: Arial;
+    font-size: 36pt;
+    font-weight: bold;
+    width: 728px;
+    margin: 50px auto 24px auto;
+    text-transform: uppercase;
+}
+
+.logo_container {
+    text-align: center;
+}
+
+.avatar {
+    width: 198px;
+    height: 198px;
+    border: 1px solid #8f8f8f;
+}
+
+.about_me {
+    font-family: Arial;
+    font-size: 14pt;
+    color: #1f1f1f;
+    font-style: normal;
+    margin: 20px 0 20px 150px;
+}
+
+.topic {
+    font-family: 'Myriad Pro';
+    font-size: 18pt;
+    margin: 0 0 20px 150px;
+}
+
+.about_fe ul {
+    font-family: 'Myriad Pro';
+    font-weight:normal;
+    font-size: 14pt;
+    color: #1f1f1f;
+    margin: 0 0 20px 150px;
+}
+
+.telephone span {
+font-family: 'Myriad Pro';
+    font-weight:normal;
+    font-size: 14pt;
+    color: #1f1f1f;
+    margin: 0 0 20px 205px;
+}
+
+.social a {
+font-family: 'Myriad Pro';
+    font-weight:normal;
+    font-size: 14pt;
+    color: #7496de;
+    margin: 0 0 20px 205px;
+    
+}
+.feedback{
+    margin-bottom:20px;
+}
+.feedback span {
+font-family: 'Myriad Pro';
+    font-weight:normal;
+    font-size: 14pt;
+    color: #1f1f1f;
+    margin: 0 0 20px 205px;
+}

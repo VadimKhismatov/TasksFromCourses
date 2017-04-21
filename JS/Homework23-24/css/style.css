@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+
+background: #F3904F; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F3904F , #3B4371); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.wrapper{
+    width:960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wrapper-form{
+    width: 450px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+
+}
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.item-value{
+    width: 350px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.item-add{
+    height: 55px;
+    width: 50px;
+}
+.item-list li{
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    padding: 5px;
+    padding-right: 113px;
+    list-style: none;
+    height: 50px;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+    margin: 0 0 1px 0;
+    border-radius: 10px;
+}
+.item-list li a{
+    position:absolute;
+    top:0;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: -4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 16px;
+    
+}
+.item-list li a.edit{
+    left: 94.8%;
+
+}
+.item-list li a.delete{
+    width: 62px;
+    left: 88.3%;
+
+}

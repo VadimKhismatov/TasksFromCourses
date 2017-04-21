@@ -1,0 +1,21 @@
+{
+  "name": "jshomework21-22",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vadim khismatov"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VadimKhismatov/JSHomework21-22",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

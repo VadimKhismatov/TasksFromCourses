@@ -1,0 +1,46 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: linear-gradient(to left, #abbaab, #ffffff);
+    height: 955px;
+}
+
+/*.container {
+    background-color: grey;
+}*/
+
+.topic {
+    text-align: center;
+}
+
+.question {
+    padding-left: 100px;
+}
+
+.question_checkbox_box {
+    padding: 0 0 0 50px;
+}
+
+.question_checkbox {
+}
+
+
+.question_topic {
+    padding: 0 0 0 20px;
+}
+
+#first_checkbox,
+#second_checkbox,
+#third_checkbox {
+    margin-right: 10px;
+}
+
+.btn_container {
+}
+
+.btn {
+    margin: 0 0 20px 450px;
+}

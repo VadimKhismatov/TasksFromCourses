@@ -1,0 +1,145 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+.active {
+    background-color: #2196F3;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    /*background-color: grey;*/
+}
+
+.tabs_container {
+    width: 100%;
+    /*height: 500px;*/
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+.content_box {
+    padding: 20px;
+}
+
+.panel {
+    overflow: hidden;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    background-color: darkgrey;
+}
+
+.tabs_menu {
+    list-style: none;
+    display: flex;
+}
+
+    .tabs_menu li {
+    }
+
+.tabs_menu_link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0 5px 0 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/*css for form*/
+
+.form_container {
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.form {
+}
+
+.fields_box {
+}
+
+.fields {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.first_field {
+}
+
+    .first_field label {
+        margin: 0 9px 0 0;
+    }
+
+    .first_field input {
+    }
+
+.second_field {
+}
+
+    .second_field label {
+        margin: 0 10px 0 0;
+    }
+
+    .second_field input {
+    }
+
+.third_field {
+}
+
+    .third_field label {
+        margin: 0 32px 0 0;
+    }
+
+    .third_field input {
+    }
+
+.tips_box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 600px;
+    float: right;
+    margin: 0 60px 0 0px;
+}
+
+.tips {
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+.btn {
+}

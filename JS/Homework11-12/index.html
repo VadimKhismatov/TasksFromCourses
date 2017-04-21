@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>JSHomework 11-12</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<script type="text/>template" id="test">
+    <% for(var i = 0; i < data.length; i++) { %>
+        <div class="wrapper">
+            <div class="header">
+                <span><%= data[i].fullname %></span>
+            </div>
+            
+            <div class="logo_container">
+                <img src=<%= data[i].logo %> class="avatar" />
+            </div>
+
+            <div class="about_me">
+                <span><%= data[i].aboutMe%></span>
+            </div>
+            
+            <hr />
+        
+        <div class="about_fe">
+            <h2 class="topic"><%= data[i].whyFe %></h2>
+            
+            <ul>
+                <% for(var key in data[i].reasons){%>
+                
+                <li><%= data[i].reasons[key] %></li>
+                
+                <% } %>
+            </ul>
+        </div>
+        
+            <hr />
+
+        <div class="telephone">
+
+             <h2 class="topic"><%= data[i].contacts.topic %></h2>
+             <span><%= data[i].contacts.number %></span>
+
+        </div>
+
+            <hr />
+
+        <div class="social">
+
+            <h2 class="topic"> <%= data[i].social.topic%></h2>
+            <a href="<%=data[i].social.href%>" target="_blank"><%= data[i].social.linkTitle %></a>
+
+        </div>
+
+            <hr />
+
+        <div class="feedback">
+            <h2 class="topic"><%= data[i].feedback.topic %></h2>
+            <span><%= data[i].feedback.text %></span>
+        </div>
+
+        </div>
+    <% } %>
+    </script>
+
+	<!--scripts-->
+	<script src="js/libs/jquery-3.1.1.min.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>

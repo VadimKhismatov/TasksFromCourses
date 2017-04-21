@@ -1,0 +1,88 @@
+.footer{
+    background-color:#2a2d32;
+}
+.footer__container{
+    padding-top: 39px;
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    font-family: "Ubuntu Medium",sans-serif;
+    font-weight: 500;
+    width:260px;
+}
+.block__title{
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#fff;
+}
+.list{
+    font-family: Arial;
+    font-size: 13px;
+}
+.list__item{
+    height: 35px;
+    line-height: 35px;
+    list-style: none;
+    border-bottom:1px solid #393c40;
+    opacity: .7;
+}
+.list__item:nth-last-child(1){
+    border:none;
+}
+.list__link{
+    display: block;
+    color:#7d7e80;
+    text-decoration: none;
+    
+}
+.list__link:hover{
+    color:#248cec;
+}
+
+/*CSS for bottom panel*/
+
+.bottom_panel{
+    background:rgb(53, 56, 60);
+}
+.bottom_panel__container{
+    display: flex;
+    height: 60px;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-family: Arial;
+    font-size: 12px;
+    color:#fff;
+}
+.panel--year{
+    margin-left: 373px;
+}
+.panel__img{
+    width:12px;
+    height: 16px;
+    background-image: url("../images/footer_icons.png");
+    background-repeat: no-repeat;
+    opacity: .20;
+    margin-right: 10px;
+}
+.panel__img--telephone{
+    background-position: -12px 0;
+
+}
+.panel__img--email{
+    width: 16px;
+    background-position: -24px 0;
+}
+.panel__text{
+    opacity: .30;
+}
+
+.panel__link{
+text-decoration: none;
+color:#fff;
+}

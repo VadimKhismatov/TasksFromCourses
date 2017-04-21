@@ -1,0 +1,27 @@
+{
+  "name": "jshomework21-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimKhismatov/JSHomework21-22.git"
+  },
+  "author": "vadim khismatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimKhismatov/JSHomework21-22/issues"
+  },
+  "homepage": "https://github.com/VadimKhismatov/JSHomework21-22#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

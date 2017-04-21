@@ -1,0 +1,63 @@
+@import "fonts.scss";
+@import "function.scss";
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search__wrapper{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.search__main_title{
+    margin-top: 21px;
+    padding-right: 2px;
+    @include montserrat-bold;
+    font-size: px(22);
+    color:$main_title_color;
+    text-align: center;
+    line-height: 25px;
+}
+
+.search__question{
+    @include roboto-light;
+    font-size: px(18);
+    color:$main_title_color;
+    margin-top: 13px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.search__form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search_input{
+    width: 87.5%;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    @include roboto-light;
+    font-size: px(14);
+    color:#999999;
+    margin-right: 4px;
+    margin-top: 18px;
+    padding-left: 15px;
+    line-height: 40px;
+}
+
+.search__btn{
+    width:87.5%;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: $red_bg_color;
+    @include montserrat-bold;
+    font-size:px(14);
+    color:#fff;
+    margin: 10px 3px 0 0px;
+}

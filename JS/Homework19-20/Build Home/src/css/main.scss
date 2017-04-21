@@ -1,0 +1,262 @@
+
+/*Main Section CSS*/
+.main{
+        overflow: hidden;
+    
+}
+.main__services{
+    overflow: hidden;
+    background-color:#2a2d32;
+}
+.services__container{
+    overflow: hidden;
+}
+
+.services_topic{
+    margin-top:48px;
+    margin-bottom: 57px;
+    font-family: "Ubuntu Medium", sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#fff;
+}
+
+.services__service{
+    margin-bottom:70px;
+    overflow: hidden;
+}
+.services__service--margin{
+    margin-right:40px;
+}
+
+.service{
+    overflow: hidden;
+    font-family: "Ubuntu Medium", sans-serif;
+    font-weight: 500;
+    color:#fff;
+    float:left;
+}
+.service__img_box{
+    position:relative;
+}
+.service__img{
+    width:260px;
+    height: 260px;
+}
+.service__animation_bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:260px;
+    height:260px;
+    background-color: #2d90ea;
+    background-image: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+.service__link{
+    text-decoration: none;
+    color:#fff;
+}
+
+.service__title{
+    margin-top: 34px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.service__link:hover .service__title{
+    color:#f4b60d;
+}
+.service__link:hover .service__animation_bg{
+    transition: 1s opacity;
+    opacity: .9;
+}
+.service__link:not(:hover) .service__animation_bg{
+    transition: 1s opacity;
+    opacity:0;
+}
+
+/*CSS for info block with latest news*/
+.main__info{
+    background-color: #f7f7f7;
+}
+.info{
+    font-family: "Ubuntu Medium", sans-serif;
+    font-weight: 500;
+}
+
+.info__container{
+    display: flex;
+}
+.info__news{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.news{
+    display: flex;
+    margin-bottom: 30px;
+}
+.info__news::last-child {
+    margin-bottom:0;
+}
+
+.news__image_container{
+    margin-right: 30px;
+    position:relative;
+}
+
+.news_topic{
+    margin: 30px 0 30px 0;
+    font-size: 24px;
+    color:#2a2d32;
+}
+.news__title{
+    margin-top: 7px;
+}
+.news__link{
+    text-decoration: none;
+    color:#0187f4;
+}
+.news__link--title{
+    font-size: 16px;
+    color:#2a2d32;
+}
+.news__initial{
+    font-family: Arial;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.news__text{
+    margin-top: 38px;
+    color:#9e9e9e;
+    font-family: Arial;
+    font-size: 13px;
+}
+.news__date{
+    position: absolute;
+    left: -15px;
+    top: 10px;
+
+}
+.date{
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.date__month{
+    background-color:#248cec;
+    color:#fff;
+}
+.date__day{
+    background-color: #f4b60d;
+}
+
+
+
+.info__banners{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.banners{
+    display: flex;
+    overflow: auto;
+    height: 543px;
+}
+.banners__topic{
+    margin: 30px 0 30px 0;
+    font-size: 24px;
+    color:#2a2d32;
+}
+.accordion__title{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color:#2a2d32;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border:1px solid #e8e8e8;
+}
+.accordion__img{
+    float: left;
+    margin-right: 10px;
+    width:39px;
+    height:40px;
+    background-image: url("../images/accordion_icons.png");
+    background-position: -14px 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid #e8e8e8;
+}
+.accordion__title--active{
+    background-color: #f4b60d;
+    color:#fff;
+}
+.accordion__img--active{
+    background-position: 15px 50%;
+}
+.accordion__text{
+    display:none;
+    margin-top: 20px;
+    padding: 0 25px 0 38px;
+    font-family: Arial;
+    font-size: 13px;
+    color:#8a8a8a;
+    margin-bottom: 40px;
+}
+
+/*CSS for brands*/
+
+.brands{
+    padding: 60px 0;
+}
+.brands__container{
+    height:62px;
+    text-align: center;
+}
+.brand{
+    display: inline-block;
+    width:150px;
+    height: 62px;
+    margin-right:47px;
+    background-image: url("../images/brands.png");
+    background-repeat: no-repeat;
+    background-position:0 0;
+    opacity: .65;
+}
+.brands__first{
+    
+}
+.brands__second{
+    background-position: -143px;
+}
+.brands__third{
+        background-position: -301px;
+    width: 153px;
+}
+.brands__fourth{
+    background-position: -466px;
+}
+.brands__fifth{
+    background-position: -608px;
+}
+.brands__sixth{
+    background-position: -749px;
+    margin-right: 0;
+}
+.brands__first:hover,
+.brands__second:hover,
+.brands__third:hover,
+.brands__fourth:hover,
+.brands__fifth:hover,
+.brands__sixth:hover{
+    opacity:1;
+}
